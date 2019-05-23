@@ -57,3 +57,5 @@ WRITE 'MULTIPLIKATION: '.
 WRITE resultmultiplikation2.
 WRITE 'POTENZRECHNUNG: '.
 WRITE resultpotenz2.
+
+WRITE 'lel this is a Gittest'.
