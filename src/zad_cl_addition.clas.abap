@@ -13,7 +13,7 @@ ENDCLASS.
 CLASS zad_cl_addition IMPLEMENTATION.
 
     METHOD zif_if_interface~addition.
-    result = value1 + value2.
+    result = value1 - value2.
     ENDMETHOD.
 
     METHOD zif_if_interface~multiplikation.
