@@ -12,6 +12,9 @@ ENDCLASS.
 
 
 
+
+
+
 CLASS zad_cl_addition IMPLEMENTATION.
 
     METHOD zif_if_interface~addition.
