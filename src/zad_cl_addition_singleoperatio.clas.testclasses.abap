@@ -5,6 +5,7 @@ DURATION SHORT.
 PRIVATE SECTION.
 DATA: obj TYPE REF TO zad_cl_addition_singleoperatio.
 METHODS: addition FOR TESTING,
+        additiontwo FOR TESTING,
         multiplikation FOR TESTING,
         potenz FOR TESTING,
       potenz_exp_zero FOR TESTING RAISING cx_static_check,
@@ -14,11 +15,20 @@ ENDCLASS.
 
 CLASS zad_cl_addition_so_test IMPLEMENTATION.
 
+
    method addition.
    CREATE OBJECT obj.
    data(result) = obj->zif_if_interface~addition( value1 = 5 value2 = 2 ).
    cl_abap_unit_assert=>assert_equals( act = result
       exp = '7'
+      msg = 'wrong integer').
+   ENDMETHOD.
+
+   method additiontwo.
+   CREATE OBJECT obj.
+   data(result) = obj->zif_if_interface~addition( value1 = 10 value2 = 0 ).
+   cl_abap_unit_assert=>assert_equals( act = result
+      exp = '10'
       msg = 'wrong integer').
    ENDMETHOD.
 

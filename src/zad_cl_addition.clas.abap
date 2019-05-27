@@ -5,12 +5,10 @@ CLASS zad_cl_addition DEFINITION
   PUBLIC SECTION.
        INTERFACES ZIF_IF_INTERFACE.
 
+
+       MEthods: test.
+
 ENDCLASS.
-
-
-
-
-
 
 
 
@@ -31,6 +29,9 @@ CLASS zad_cl_addition IMPLEMENTATION.
 
     CATCH CX_SY_CONVERSION_OVERFLOW.
     ENDTRY.
+    ENDMETHOD.
+
+    METHOD test.
     ENDMETHOD.
 ENDCLASS.
 
