@@ -58,4 +58,4 @@ WRITE resultmultiplikation2.
 WRITE 'POTENZRECHNUNG: '.
 WRITE resultpotenz2.
 
-WRITE 'IT 32-2'.
+*WRITE 'IT 32-2'.
