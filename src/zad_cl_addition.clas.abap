@@ -4,10 +4,6 @@ CLASS zad_cl_addition DEFINITION
   CREATE PUBLIC.
   PUBLIC SECTION.
        INTERFACES ZIF_IF_INTERFACE.
-
-
-       MEthods: test.
-
 ENDCLASS.
 
 
@@ -23,6 +19,7 @@ CLASS zad_cl_addition IMPLEMENTATION.
     result = value1 * value2.
     ENDMETHOD.
 
+
     METHOD zif_if_interface~potenz.
     TRY.
     result = basis ** varexponent.
@@ -31,8 +28,6 @@ CLASS zad_cl_addition IMPLEMENTATION.
     ENDTRY.
     ENDMETHOD.
 
-    METHOD test.
-    ENDMETHOD.
 ENDCLASS.
 
 

@@ -10,8 +10,8 @@ DATA:   vara Type INT8,
         resultpotenz2 TYPE INT8,
         resultmultiplikation2 TYPE INT8.
 
-vara = 5.
-varb = 0.
+vara = 6.
+varb = 2.
 
 DATA: data1 TYPE REF TO zad_cl_addition.
       CREATE OBJECT data1.
@@ -58,4 +58,4 @@ WRITE resultmultiplikation2.
 WRITE 'POTENZRECHNUNG: '.
 WRITE resultpotenz2.
 
-WRITE 'lel this is a Gittest'.
+*WRITE 'this is a Gittest'.
