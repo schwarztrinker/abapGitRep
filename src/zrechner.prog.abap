@@ -58,4 +58,4 @@ WRITE resultmultiplikation2.
 WRITE 'POTENZRECHNUNG: '.
 WRITE resultpotenz2.
 
-*WRITE 'this is a Gittest'.
+WRITE 'IT 32-2'.
